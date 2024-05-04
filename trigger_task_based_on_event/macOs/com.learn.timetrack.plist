@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.learn.timetrack</string> <!--Unique identifier -->
+    <key>Program</key> <!-- key to specify execution script, applescript, application -->
+    <string>"path to starttimetracking.sh"</string> <!-- path of Program/script -->
+    <key>RunAtLoad</key> <!-- to make it run every time system boot or user login -->
+    <true/>
+    <key>KeepAlive</key> <!--implies that program will keep on running continuously irrespective of demand -->
+    <true/>
+    <key>StartInterval</key> <!-- Will execute after time inteval define in this key value -->
+    <integer>1800</integer> <!-- this is second so 30 minutes = 30*60 seconds-->
+</dict>
+</plist>

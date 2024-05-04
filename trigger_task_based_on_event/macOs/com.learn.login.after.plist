@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.learn.login.after</string> <!--Unique identifier -->
+    <key>Program</key> <!-- key to specify execution script, applescript, application -->
+    <string>"path to dailyTaskOnLogin.sh"</string> <!-- path of Program/script -->
+    <key>RunAtLoad</key> <!-- to make it run every time system boot or user login -->
+    <true/>
+</dict>
+</plist>
